@@ -1,0 +1,325 @@
+body { 
+    background-image: linear-gradient(rgb(163, 128, 104), rgba(252, 252, 252, 0.404)), url(../img/chavena-de-cafe-com-uma-pilha-de-graos-de-cafe_1112-438.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: rgb(75, 54, 33);
+    margin: 0%;
+}
+
+/*menu*/
+
+.banner {
+background-color: saddlebrown;
+height: 100px;
+padding: 20px 80px 20px 80px;
+}
+
+ .banner nav{
+    float: right;
+    position: relative;
+    top: 30px;
+
+ }
+ .banner nav ul li{
+display: inline-block;
+
+ }
+ .banner ul{
+     margin: 0%;
+ }
+ .banner nav ul li a{
+     color: whitesmoke;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+     text-transform: uppercase;
+     padding: 5px 40px;
+    display: inline-block;
+    font-family: cursive;
+ }
+ 
+ /*menu*/
+ 
+ /*pagina principal*/
+
+ h1.p1 {
+     text-align: center;
+     color: seashell;
+     padding: 70px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 60px;
+ }
+
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-gap: 20px;
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+} 
+
+.sidebar > div{
+    margin-bottom: 20px;
+}
+
+.fotos h2{
+    color: seashell;
+    font-family: cursive;
+    font-size: 80px;
+}
+
+.fotos p{
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+/*pagina principal*/
+
+/*pagina 2*/
+
+.introdução{
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    color: seashell;
+    text-align: center;
+}
+
+.sobre{
+    border-top: 2px solid saddlebrown;
+    border-bottom: 2px solid saddlebrown;
+    max-width: 960px;
+    margin:  0 auto;
+    padding: 60px 0px;
+    display: flex;
+
+}
+
+.sobre1{
+    flex: 2; 
+    margin: 0 10px;
+}
+.sobre1 h1{
+     font-size: 3em;
+     margin-bottom: .5em;
+     color: seashell;
+     font-family: cursive;
+     
+ }
+
+ .sobre1 p{
+     font-size: 1.25em;
+     line-height: 1.4;
+     margin-bottom: 1em;
+     color: seashell;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .sobre-img{
+     flex: 1;
+     margin: 0 10px;
+ }
+
+/*pagina 2*/
+
+/*pagina 3*/
+
+.cardapio{
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.cardapio h1{
+    font-size: 3em;
+    margin: 0 10px 60px 10px ;
+    font-family: cursive;
+    color: seashell;
+    text-align: center;
+}
+
+.cardapio-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.cardapio-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.cardapio-item h2{
+    font-size: 2em;
+    color: seashell;
+    background: rgb(80, 36, 16);
+    padding: 60px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.preco{
+    background-color: rgb(80, 36, 16);
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.preco-item{
+flex: 1;
+border: 4px solid white;
+padding: 20px;
+margin: 10px;
+}
+.preco-item h2{
+    font-size: 3em;
+    color: seashell;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.preco-item span{
+    max-width: 300px;
+    font-size: 3em;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    color: seashell;
+    
+}
+
+.preco-item sup{
+    font-size: 1.5rem;
+    
+}
+
+.preco-item ul{
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1,25em;
+    font-style: italic;
+    color: seashell;
+}
+.preco-item li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.preco-item li::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: sienna;
+    border-radius: 50%;
+}
+
+
+/*pagina 3*/
+
+/*pagina 4*/
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+    color: snow;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.formulario h1{
+    color: seashell;
+    align-items: center;
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+    
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    color: snow;
+    
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input#nao{
+    margin-left: 30px;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/*pagina 4*/
+
+/*FINAL*/
+.copyright {
+    padding: 35px 0 10px 0;	
+}
+
+.copyright a {
+	display: block;
+    text-align: center;
+    
+}
+
+.copyright p {
+	font-size: 15px;
+    text-align: center;
+    color: seashell;
+}
+/*FINAL*/

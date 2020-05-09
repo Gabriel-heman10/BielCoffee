@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/projeto.css">
+    <title>Café do Biel</title>
+</head>    
+
+<body>
+ 
+    <header>
+        <div class="banner">
+                <a href="PaginaPrincipal.html"><img src="./img/logo.jpg" alt="logo café"></a>
+            <nav>
+                <ul>
+               <li><a href="Sobre.html" class="active">Sobre Biel Coffee's</a></li>
+                <li><a href="Cardapio.html">Cardápio</a></li>
+                <li><a href="Fale Conosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <form action="exibir-dados.php" class="formulario" method="post"> 
+        <h1>Fale Conosco</h1>
+        <p> Deixe sua opnião e seu comentário sobre a gente no formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+ 
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+ 
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+
+    <footer>
+        <div class="copyright">
+            <a href="#" class="logobiel">
+                <img src="./img/logo.jpg">
+            </a>
+
+            <p>Todos os direitos reservados &copy; 2020</p>
+        </div>
+    </footer>
+
+</body>
+</html>
