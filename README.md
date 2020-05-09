@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/projeto.css">
-    <title>Biel Coffee's</title>
+<title>Biel Coffee's</title>
 </head>    
-
 <body>
     <header>
         <div class="banner">
